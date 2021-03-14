@@ -1,6 +1,6 @@
 const QuizPage = () => {
     return (
-
+        <form>quiz</form>
     )
 }
 
