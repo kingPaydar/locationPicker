@@ -1,8 +1,8 @@
-export const InputField = ({type, handleChange, value, labelText, required, pattern}) => {
+export const InputField = ({type, handleChange, value, labelText, required, pattern, id}) => {
     return (
-        <label htmlFor="">
+        <label htmlFor={id}>
             {labelText}
-            <input type={type} onChange={handleChange} value={value} required={required} pattern={pattern} />
+            <input id={id} type={type} onChange={handleChange} value={value} required={required} pattern={pattern} />
         </label>
     )
 }
