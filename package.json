@@ -1,5 +1,5 @@
 {
-  "name": "picker",
+  "name": "location-picker",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
