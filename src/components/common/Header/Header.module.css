@@ -1,0 +1,14 @@
+.header nav {
+  width: 100%;
+  background-color: wheat;
+  margin-bottom: 2%;
+}
+
+.header nav img {
+  width: 30%;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+/*# sourceMappingURL=Header.module.css.map */
